@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h1:first-child {
+        width: 1200px;
+        height: 100px;
+        background-color: red;
+      }
+      h1:nth-child(2) {
+        width: 1200px;
+        height: 100px;
+        background-color: blue;
+      }
+      ul {
+        width: 1200px;
+        height: 500px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 0;
+      }
+      ul li {
+        width: 100px;
+        display: inline-block;
+        background-color: red;
+        font-size: 16px;
+        margin-left: 450px;
+      }
+      li {
+        width: 20%;
+        height: 500px;
+      }
+      ul li:first-child {
+        margin-left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>가로크기는 1200px 세로크기는 100px</h1>
+    <h1>가로크기는 1200px 세로크기는 100px</h1>
+    <ul>
+      <li class="one">가로크기는 20% 세로크기는 500px</li>
+      <li class="two">가로크기는 70% 세로크기는 500px</li>
+      <li class="three">가로크기는 10% 세로크기는 500px</li>
+    </ul>
+    <p>가로크기는 1200px 세로크기는 100px</p>
+  </body>
+</html>
