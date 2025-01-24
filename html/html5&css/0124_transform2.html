@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        width: 100px;
+        height: 100px;
+        background: #ccc;
+        margin: 20px;
+      }
+      div p:first-child {
+        transform: translate(50px) scale(1.5);
+      }
+      div p:nth-child(2) {
+        transform: scale(0.5) translate(100px);
+      }
+      div p:nth-child(3) {
+        transform: scale(0.5) translate(150px);
+      }
+      div p:nth-child(4) {
+        width: 50px;
+        height: 50px;
+        transform: translate(50px);
+      }
+      div p:nth-child(5) {
+        width: 50px;
+        height: 50px;
+        transform: translate(100px);
+      }
+      div p:nth-child(6) {
+        width: 50px;
+        height: 50px;
+        transform: translate(150px);
+      }
+      section p {
+        width: 100px;
+        height: 100px;
+      }
+      section p:nth-child(2) {
+        transform: scale(0.5) translate(100px);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>1</p>
+      <p>2</p>
+      <p>3</p>
+      <p>4</p>
+      <p>5</p>
+      <p>6</p>
+    </div>
+    <section>
+      <p></p>
+      <p></p>
+    </section>
+  </body>
+</html>
